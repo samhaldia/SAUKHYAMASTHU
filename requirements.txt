@@ -1,0 +1,6 @@
+Flask>=1.0.0
+cloudant==2.4.0
+flask-bootstrap>=3.3.7.0
+Flask-WTF>=0.14.1
+email-validator>=1.0.5
+flask-googlemaps>=0.4.0

@@ -1,0 +1,45 @@
+{% extends 'home.html' %}
+{% block content %}
+<script>
+$(document).ready( function() { $.getJSON('http://www.geoplugin.net/json.gp?jsoncallback=?', function(data) {
+  console.log(JSON.stringify(data, null, 2));
+  //console.log(data.geoplugin_latitude);
+  $('#lat').val(data.geoplugin_latitude);
+  $('#long').val(data.geoplugin_longitude);
+  $('#city').val(data.geoplugin_city);
+  $('#state').val(data.geoplugin_regionName);
+});;});
+</script>
+<h2>Self-Reporting Visualization and Insights</h2>
+ 
+  {% for category, message in get_flashed_messages(with_categories=true) %}
+    <div class="flash {{ category }}">{{ message }}</div>
+  {% endfor %}
+   
+  <form action="" method="post">
+    {{ form.csrf_token }}
+    {{ form.name.label }}
+    {{ form.name }}
+ 
+    {{ form.email.label }}
+    {{ form.email }}
+	
+	{{ form.phone.label }}
+    {{ form.phone }}
+ 
+    {{ form.subject.label }}
+    {{ form.subject }}
+ 
+    {{ form.message.label }}
+    {{ form.message }}
+	
+	
+    <input id="lat" name="lat" required="" type="hidden" value="">
+	<input id="long" name="long" required="" type="hidden" value="">
+	<input id="city" name="city" required="" type="hidden" value="">
+	<input id="state" name="state" required="" type="hidden" value="">
+
+ 
+    {{ form.submit }}
+  </form>
+{% endblock %}
