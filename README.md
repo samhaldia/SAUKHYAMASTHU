@@ -32,7 +32,6 @@ A Inclusive Web Platform to make evry Individual a Warrior in times of Pandemic 
 ## Demo video
 
 
-
 ## The architecture
 
 ![Roadmap](https://github.com/samhaldia/SAUKHYAMASTHU/blob/master/architecture.JPG?raw=true)
