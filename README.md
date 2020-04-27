@@ -31,7 +31,7 @@ A Inclusive Web Platform to make evry Individual a Warrior in times of Pandemic 
 
 ## Demo video
 
-[![Watch the video]](https://youtu.be/EHR7A5d9TSg)
+[![Watch the video] (https://github.com/samhaldia/SAUKHYAMASTHU/blob/master/Video-Caption.JPG?raw=true)](https://youtu.be/EHR7A5d9TSg)
 
 ## The architecture
 
