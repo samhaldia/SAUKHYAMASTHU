@@ -12,7 +12,6 @@ from flask_googlemaps import Map
 import requests
 from cloudant.error import CloudantException
 from cloudant.result import Result, ResultByKey
-import phonenumbers
 
 app = Flask(__name__, static_url_path='')
 GoogleMaps(app, key="AIzaSyCLiazO04XQ83QPAA9YDAhpgduggM1tqLY")
