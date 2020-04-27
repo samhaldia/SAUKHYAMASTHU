@@ -31,6 +31,7 @@ A Inclusive Web Platform to make evry Individual a Warrior in times of Pandemic 
 
 ## Demo video
 
+[![Watch the video]](https://youtu.be/EHR7A5d9TSg)
 
 ## The architecture
 
@@ -63,7 +64,7 @@ You'll need the following:
 * [Cloud Foundry CLI](https://github.com/cloudfoundry/cli#downloads)
 * [Git](https://git-scm.com/downloads)
 * [Python](https://www.python.org/downloads/)
-* Docker
+* [Docker] (https://docs.docker.com/get-docker/)
 
 2. Put all the packages in requirements.txt as below
  
@@ -104,8 +105,8 @@ https://ucare-quick-gorilla.eu-gb.mybluemix.net/self-reporting
 ## Authors
 
 * **Sameer Kumar Choudhary** 
-* **Krishna Priya tadepalli** - 
-* **Saravjeet Lamba** - 
+* **Krishna Priya tadepalli**
+* **Saravjeet Lamba**
 
 
 ## License
