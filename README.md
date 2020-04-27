@@ -31,11 +31,11 @@ A Inclusive Web Platform to make evry Individual a Warrior in times of Pandemic 
 
 ## Demo video
 
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+
 
 ## The architecture
 
-![Roadmap](architecture.jpg)
+![Roadmap](https://github.com/samhaldia/SAUKHYAMASTHU/blob/master/architecture.JPG?raw=true)
 
 
 1. The user navigates to the portal and has access to its services: Self-Reporting, Insights from Reporting, COVID-19 Information, etc.
