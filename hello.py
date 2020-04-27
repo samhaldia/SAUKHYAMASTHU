@@ -14,7 +14,7 @@ from cloudant.error import CloudantException
 from cloudant.result import Result, ResultByKey
 
 app = Flask(__name__, static_url_path='')
-GoogleMaps(app, key="AIzaSyCLiazO04XQ83QPAA9YDAhpgduggM1tqLY")
+GoogleMaps(app, key="####")
 Bootstrap(app)
 app.config.from_object(__name__)
 app.config['SECRET_KEY'] = '7d441f27d441f27567d441f2b6176a'
